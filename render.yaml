@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ledybot-webhook-v2
+    env: python
+    buildCommand: ""
+    startCommand: "python ledybot_webhook.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7892301708:AAGlJl6tqpmCjKHe3VUHM4jP9kVZ-mkJKio
