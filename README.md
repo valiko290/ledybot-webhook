@@ -5,7 +5,7 @@
 ## Стартовая команда на Render:
 ```
 uvicorn ledybot_webhook:app --host=0.0.0.0 --port=10000.
-# updated to trigger commit.
+# # updated again to enable fixationt.
 ```
 
 ## Установка webhook:
